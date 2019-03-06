@@ -12,7 +12,7 @@ import 'jest-dom/extend-expect';
 
 describe('<Dashboard />', () => {
   //Snapshot
-  it.skip('matches snapshot', () => {
+  it('matches snapshot', () => {
     const tree = renderer.create(<Dashboard />);
 
     expect(tree.toJSON()).toMatchSnapshot();
